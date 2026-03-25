@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+    <!-- Background -->
+    <rect width="1200" height="630" fill="#faf8f5"/>
+    <!-- Left accent bar -->
+    <rect x="0" y="0" width="10" height="630" fill="#c8712e"/>
+    <!-- Bottom accent line -->
+    <rect x="0" y="590" width="1200" height="40" fill="#f2eeea"/>
+
+    <!-- Name -->
+    <text x="80" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="#1a1a1a" letter-spacing="-1">Jonathan Jenin</text>
+
+    <!-- Divider -->
+    <rect x="80" y="230" width="120" height="4" fill="#c8712e" rx="2"/>
+
+    <!-- Title -->
+    <text x="80" y="300" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6b6560">SaaS Product &amp; Engineering</text>
+    <text x="80" y="345" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6b6560">Leadership Mentor</text>
+
+    <!-- Tag line -->
+    <text x="80" y="430" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#c8712e">1:1 Mentoring · $240/hr · Free discovery call</text>
+
+    <!-- URL -->
+    <text x="80" y="565" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#6b6560">jonathanjenin.com</text>
+</svg>
