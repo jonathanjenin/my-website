@@ -371,9 +371,14 @@ section { padding: 6rem 2rem; }
 
 /* ---- CASE STUDY VIGNETTE ---- */
 .vignette-section { background: var(--paper); }
-.vignette-card {
+.vignette-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     max-width: 720px;
     margin: 0 auto;
+}
+.vignette-card {
     background: var(--card-bg);
     border: 1px solid var(--rule);
     border-radius: 16px;
@@ -390,6 +395,14 @@ section { padding: 6rem 2rem; }
     padding: 0.3rem 0.75rem;
     border-radius: 20px;
     margin-bottom: 1.25rem;
+}
+.vignette-badge--warm {
+    color: var(--warm);
+    background: var(--warm-light);
+}
+.vignette-badge--muted {
+    color: var(--muted);
+    background: var(--section-alt);
 }
 .vignette-card h3 {
     font-family: 'DM Serif Display', serif;
