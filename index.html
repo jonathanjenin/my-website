@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Security -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self'; base-uri 'self'; form-action 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' https://images.squarespace-cdn.com; base-uri 'self'; form-action 'none'">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <!-- Primary meta -->
@@ -262,7 +262,7 @@
                 <div class="vignette-timeline">
                     <div class="vignette-step">
                         <div class="vignette-step-label">The situation</div>
-                        <p>A seed-stage SaaS company was missing its growth projections with Series A on the horizon. A board member brought me into find out why.</p>
+                        <p>A seed-stage SaaS company was missing its growth projections with Series A on the horizon. A board member brought me in to find out why.</p>
                     </div>
                     <div class="vignette-step">
                         <div class="vignette-step-label">What we built</div>
@@ -284,7 +284,7 @@
     <div class="container">
         <div class="fade-in">
             <div class="section-label">What you get</div>
-            <h2 class="section-title">Tactical guidance, not motivational quotes</h2>
+            <h2 class="section-title">Tactical and data-driven guidance</h2>
             <p class="section-subtitle">Every session is focused on your real, current challenge. Here's the kind of work we do together.</p>
         </div>
         <div class="get-grid fade-in">
@@ -539,7 +539,7 @@
         </div>
 
         <button class="testimonials-toggle" id="toggleBtn" aria-expanded="false">
-            Show all 17 testimonials &#8595;
+            Show all 16 testimonials &#8595;
         </button>
     </div>
 </section>
@@ -590,6 +590,15 @@
         <div class="faq-list fade-in">
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
+                    What actually happens on the free call?
+                    <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+                </button>
+                <div class="faq-answer">
+                    <p>We spend the first 20 minutes on your specific situation — what you're navigating, what's already been tried, and what success looks like for you. I'll share 2–3 concrete ideas you can use immediately, regardless of whether we work together. The last 10 minutes is for your questions. No pitch at the end.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
                     Is this worth $240 per hour?
                     <span class="faq-chevron" aria-hidden="true">&#8964;</span>
                 </button>
@@ -612,7 +621,7 @@
                     <span class="faq-chevron" aria-hidden="true">&#8964;</span>
                 </button>
                 <div class="faq-answer">
-                    <p>Books give you frameworks. Mentoring applies them to your specific situation — your team, your company politics, your timeline. I've read the books too (I keep a public reading list). The difference is I've also implemented the ideas across five companies and can tell you what actually works vs. what sounds good in theory.</p>
+                    <p>Books give you frameworks. Mentoring applies them to your specific situation — your team, your company politics, your timeline. I've read the books too. The difference is I've also implemented the ideas across five companies and can tell you what actually works vs. what sounds good in theory.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -646,7 +655,7 @@
         </div>
         <div class="about-grid fade-in">
             <div class="about-photo">
-                <img src="headshot.png" alt="Jonathan Jenin" loading="lazy">
+                <img src="headshot.png" alt="Jonathan Jenin" loading="lazy" width="800" height="800" sizes="(max-width: 768px) 100vw, 400px">
             </div>
             <div class="about-content">
                 <p>VP of Product Development (Payments) at Eltropy. Previously led product and engineering at Lexop, Workleap, SmartPixel, and Spearhead Games. MBA.</p>
@@ -675,8 +684,182 @@
 
 <footer>
     &copy; <span id="copyright-year">2026</span> Jonathan Jenin. All rights reserved.
+    <a href="#library-drawer" class="library-trigger" id="libraryFooterBtn">Reading List</a>
     <noscript><br>To book a call, visit <a href="https://cal.com/jonathan.jenin/discovery">cal.com/jonathan.jenin/discovery</a></noscript>
 </footer>
+
+<!-- LIBRARY DRAWER -->
+<section id="library-drawer" aria-label="Reading list">
+    <div class="container">
+        <div class="library-drawer-header">
+            <h2>Reading list</h2>
+            <button id="libraryClose">Close &#8593;</button>
+        </div>
+
+        <div class="library-category">
+            <div class="library-category-label">Leadership</div>
+            <div class="library-grid">
+                <a href="https://www.amazon.ca/First-Days-Updated-Expanded-Strategies/dp/1422188612/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588632338035-ZR24R750T4MPSMR6L56Q/the+first+90+days.jpg" alt="The First 90 Days" loading="lazy">
+                    <span class="library-book-title">The First 90 Days</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Kim-Scott-ebook/dp/B07P9LPXPT" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937184191-N4HEXNXNI280BXRFV879/radical+candor.jpg" alt="Radical Candor" loading="lazy">
+                    <span class="library-book-title">Radical Candor</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Russ-Laraway-ebook/dp/B09CNF2GPL" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937129931-Z30T4NF7E4LDB8YF8ED0/71OjrbVDRCL._SL1500_.jpg" alt="The Effective Manager" loading="lazy">
+                    <span class="library-book-title">The Effective Manager</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/dp/B072M53RVD/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936219977-5TXCABVKEEH6A4BDFZRG/drive.jpeg" alt="Drive" loading="lazy">
+                    <span class="library-book-title">Drive</span>
+                </a>
+                <a href="https://www.amazon.ca/One-Mission-Leaders-Build-Teams/dp/0735211353/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588633485601-V6LD0VOYO8QYHBAZQBSJ/one+mission.jpg" alt="One Mission" loading="lazy">
+                    <span class="library-book-title">One Mission</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/dp/B072F6GHK9" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707935726873-0174NMF3FDOJSBUWP7YQ/death-by-meeting.jpg" alt="Death by Meeting" loading="lazy">
+                    <span class="library-book-title">Death by Meeting</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/dp/B071NVS6HM/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707935886302-JH7DRFZP6L4ZETE5N8QO/immunity-to-change-1.jpg" alt="Immunity to Change" loading="lazy">
+                    <span class="library-book-title">Immunity to Change</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Marshall-B-Rosenberg-PhD/dp/189200528X" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936036602-B570DMV93NYI3YHUZR36/nonviolent-communication-a-language-of-life-3rd-edition.jpg" alt="Nonviolent Communication" loading="lazy">
+                    <span class="library-book-title">Nonviolent Communication</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Sue-Johnston/dp/0978283007/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707935556237-F6NZFBZEO5RF1CTAQ31T/talk-to-me-workplace-conversations-that-work.jpg" alt="Talk to Me" loading="lazy">
+                    <span class="library-book-title">Talk to Me</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/dp/B072M53RVD/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936383336-E68VUWKT46EFZK9ZQXAI/flow-1.jpg" alt="Flow" loading="lazy">
+                    <span class="library-book-title">Flow</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="library-category">
+            <div class="library-category-label">Product Management</div>
+            <div class="library-grid">
+                <a href="https://www.amazon.ca/-/fr/dp/B07ZDMGLDJ/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707935183916-VY0OZ2MADTHVQRWMVTZW/product-led-growth.jpg" alt="Product-Led Growth" loading="lazy">
+                    <span class="library-book-title">Product-Led Growth</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/G-Lafley/dp/142218739X" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707935805304-4FF4F7WV75VWR7P9V0L5/playing-to-win-20.jpg" alt="Playing to Win" loading="lazy">
+                    <span class="library-book-title">Playing to Win</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/dp/B089DNHCG6/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936114496-MNKBDYLVVLKHLUQEKBDO/blue-ocean-strategy-expanded-edition-2.jpg" alt="Blue Ocean Strategy" loading="lazy">
+                    <span class="library-book-title">Blue Ocean Strategy</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/dp/B0BPF2S5FH/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936169846-JMUM2728SKGSHDTEBNPG/creativity-inc-the-expanded-edition-1.jpg" alt="Creativity, Inc." loading="lazy">
+                    <span class="library-book-title">Creativity, Inc.</span>
+                </a>
+                <a href="https://www.amazon.ca/Made-Stick-Ideas-Survive-Others/dp/1400064287" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937276610-75C3LIBBGUE8SN28JMGR/818KHQZAl0L._SL1500_.jpg" alt="Made to Stick" loading="lazy">
+                    <span class="library-book-title">Made to Stick</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="library-category">
+            <div class="library-category-label">Engineering &amp; Team Design</div>
+            <div class="library-grid">
+                <a href="https://www.amazon.ca/-/fr/Will-Larson-ebook/dp/B07QYCHJ7V/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707938057696-TMR9P9ZN2A721YSYE6H0/elegant+puzzle.jpg" alt="An Elegant Puzzle" loading="lazy">
+                    <span class="library-book-title">An Elegant Puzzle</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Team-Topologies-Organizing-Business-Technology/dp/1942788819/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1717087875854-S5G9XQ94OKCD2DR0K8YA/team-topologies.jpg" alt="Team Topologies" loading="lazy">
+                    <span class="library-book-title">Team Topologies</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/David-Thomas-ebook/dp/B07VRS84D1" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937741713-LIRYXUXJPPMBRIX4SO7D/pragmagtic+programer.jpg" alt="The Pragmatic Programmer" loading="lazy">
+                    <span class="library-book-title">The Pragmatic Programmer</span>
+                </a>
+                <a href="https://www.amazon.ca/dp/0132350882" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937536413-VVI3TVFQAYBDY4T2J152/clean+code.jpg" alt="Clean Code" loading="lazy">
+                    <span class="library-book-title">Clean Code</span>
+                </a>
+                <a href="https://www.amazon.ca/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937633103-ET0FQLS7NPILOE8OHY07/DDD.jpg" alt="Domain-Driven Design" loading="lazy">
+                    <span class="library-book-title">Domain-Driven Design</span>
+                </a>
+                <a href="https://www.amazon.ca/Test-Driven-Development-Kent-Beck/dp/0321146530/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937571744-K4EQ80IDSAAX24S6VNWQ/TDD.jpg" alt="Test-Driven Development" loading="lazy">
+                    <span class="library-book-title">Test-Driven Development</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Eric-Freeman-dp-149207800X/dp/149207800X/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937412688-0WGMFHVJQV91N0WFYZN9/Head+first.jpg" alt="Head First Design Patterns" loading="lazy">
+                    <span class="library-book-title">Head First Design Patterns</span>
+                </a>
+                <a href="https://www.amazon.ca/dp/0735619670" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937691999-9CCBRV9GW1YI8AWEE79C/Code+complete.jpg" alt="Code Complete" loading="lazy">
+                    <span class="library-book-title">Code Complete</span>
+                </a>
+                <a href="https://www.amazon.ca/Well-Grounded-Rubyist-David-Black/dp/1617291692" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707937503027-STQ07O3HCLTT3FZLHORK/well+grounded+rubyist.jpg" alt="The Well-Grounded Rubyist" loading="lazy">
+                    <span class="library-book-title">The Well-Grounded Rubyist</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="library-category">
+            <div class="library-category-label">Personal Development</div>
+            <div class="library-grid">
+                <a href="https://www.amazon.ca/-/fr/dp/B071F5Y27V" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936472911-9XDFFDJSVGCURQ9D0M66/thinking-fast-and-slow-2.jpg" alt="Thinking, Fast and Slow" loading="lazy">
+                    <span class="library-book-title">Thinking, Fast and Slow</span>
+                </a>
+                <a href="https://www.amazon.ca/Habits-Highly-Effective-People-Powerful/dp/060632318X" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588633252067-LSADBR3A6SWGYWQHM8AR/7+habits+of+highly+effective+people.jpg" alt="The 7 Habits of Highly Effective People" loading="lazy">
+                    <span class="library-book-title">The 7 Habits of Highly Effective People</span>
+                </a>
+                <a href="https://www.amazon.ca/How-Friends-Influence-People-Self-Improvement-ebook/dp/B01N2QGMOU" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588633116856-U78U7COTHIDKOYU36WBV/how+to+win+friends+and+influence+people.jpg" alt="How to Win Friends and Influence People" loading="lazy">
+                    <span class="library-book-title">How to Win Friends and Influence People</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Julia-Shaw/dp/0385685319/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936517538-CLR9TE9G2ZUTQ5U3JC6Y/the-memory-illusion-1.jpg" alt="The Memory Illusion" loading="lazy">
+                    <span class="library-book-title">The Memory Illusion</span>
+                </a>
+                <a href="https://www.amazon.ca/Breaking-Habit-Being-Yourself-Dispenza/dp/B00C7HKUZE/" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588632905485-J7L7OVUPBZ2QHZ7DLTHH/breaking+the+habits+of+being+yourself.jpg" alt="Breaking the Habit of Being Yourself" loading="lazy">
+                    <span class="library-book-title">Breaking the Habit of Being Yourself</span>
+                </a>
+                <a href="https://www.amazon.ca/-/fr/Napoleon-Hill-ebook/dp/B07P6MDTBL" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1707936797001-TPXNUOVQ9UGHCE3T4NIC/Law+of+success.jpg" alt="Law of Success" loading="lazy">
+                    <span class="library-book-title">Law of Success</span>
+                </a>
+                <a href="https://www.amazon.ca/Richard-N-Bolles/dp/198485657X" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588632119469-TY7RR3E4D5LG3F9ORA9S/What+color+is+your+parachute+2020.jpg" alt="What Color Is Your Parachute?" loading="lazy">
+                    <span class="library-book-title">What Color Is Your Parachute?</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="library-category">
+            <div class="library-category-label">C-Level</div>
+            <div class="library-grid">
+                <a href="https://www.amazon.ca/How-Chief-Operating-Officer-Disciplines/dp/1999768310" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588632692056-KC583MZG9VBBXQEYLXNP/how+to+be+a+COO.jpg" alt="How to Be a Chief Operating Officer" loading="lazy">
+                    <span class="library-book-title">How to Be a Chief Operating Officer</span>
+                </a>
+                <a href="https://www.amazon.ca/Riding-Shotgun-Role-COO-Updated/dp/1503600386" target="_blank" rel="noopener noreferrer" class="library-book">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f1369d88fd73e4cc6d04f/1588632615751-QDV2ZU6VE9RIHEVH4YNO/riding+the+shotgun.jpg" alt="Riding Shotgun" loading="lazy">
+                    <span class="library-book-title">Riding Shotgun</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <!-- Sticky mobile CTA -->
 <div class="sticky-mobile-cta" id="stickyMobile">

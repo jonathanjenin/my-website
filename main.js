@@ -57,7 +57,7 @@
         toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         toggleBtn.innerHTML = isOpen
             ? 'Show fewer testimonials &#8593;'
-            : 'Show all 14 testimonials &#8595;';
+            : 'Show all 16 testimonials &#8595;';
     });
 
     // ---- FAQ ACCORDION ----
@@ -95,6 +95,21 @@
         checkSticky();
     })();
 
+    // ---- LIBRARY DRAWER ----
+    var libraryDrawer = document.getElementById('library-drawer');
+    var libraryBtn = document.getElementById('libraryFooterBtn');
+    var libraryClose = document.getElementById('libraryClose');
+    function openLibrary() {
+        libraryDrawer.classList.add('open');
+        requestAnimationFrame(function () {
+            libraryDrawer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    }
+    libraryBtn.addEventListener('click', function (e) { e.preventDefault(); openLibrary(); });
+    libraryClose.addEventListener('click', function () {
+        libraryDrawer.classList.remove('open');
+        document.querySelector('footer').scrollIntoView({ behavior: 'smooth', block: 'end' });
+    });
     // ---- DYNAMIC COPYRIGHT YEAR ----
     var yearEl = document.getElementById('copyright-year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();

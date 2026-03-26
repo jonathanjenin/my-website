@@ -742,6 +742,81 @@ footer {
 }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
 
+/* ---- LIBRARY DRAWER ---- */
+#library-drawer {
+    display: none;
+    background: var(--section-alt);
+    padding: 4rem 0 5rem;
+    border-top: 1px solid var(--rule);
+}
+#library-drawer.open { display: block; }
+.library-drawer-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.library-drawer-header h2 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+#libraryClose {
+    background: none;
+    border: none;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: var(--muted);
+    padding: 0;
+    text-decoration: underline;
+}
+#libraryClose:hover { color: var(--ink); }
+.library-category { margin-bottom: 3rem; }
+.library-category-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--warm);
+    margin-bottom: 1.25rem;
+}
+.library-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 1.25rem 1rem;
+}
+.library-book {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.library-book img {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.library-book:hover img {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+.library-book-title {
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    text-align: center;
+    line-height: 1.35;
+}
+footer .library-trigger {
+    margin-left: 1.25rem;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: inherit;
+}
+footer .library-trigger:hover { color: var(--ink); text-decoration: underline; }
+
 /* ---- RESPONSIVE ---- */
 @media (max-width: 768px) {
     section { padding: 4rem 1.5rem; }
