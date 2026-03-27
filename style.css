@@ -390,19 +390,19 @@ section { padding: 6rem 2rem; }
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--green);
-    background: var(--green-light);
+    color: #1a6645;
+    background: #d0f0e2;
     padding: 0.3rem 0.75rem;
     border-radius: 20px;
     margin-bottom: 1.25rem;
 }
 .vignette-badge--warm {
-    color: var(--warm);
-    background: var(--warm-light);
+    color: #b85c1a;
+    background: #fde8d3;
 }
-.vignette-badge--muted {
-    color: var(--muted);
-    background: var(--section-alt);
+.vignette-badge--indigo {
+    color: #3730a3;
+    background: #e0e7ff;
 }
 .vignette-card h3 {
     font-family: 'DM Serif Display', serif;
@@ -850,4 +850,46 @@ footer .library-trigger:hover { color: var(--ink); text-decoration: underline; }
     .hero-proof { gap: 1.5rem; }
     .guarantee-bar { flex-direction: column; text-align: center; }
     .sticky-mobile-cta { display: block; }
+    .for-who-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- FOR-WHO 2-TRACK LAYOUT ---- */
+.for-who-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 3rem;
+    margin-top: 2.5rem;
+    align-items: stretch;
+}
+.for-who-track-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--warm);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    align-self: end;
+}
+
+/* ---- GET-SECTION TRACKS ---- */
+.get-track-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--warm);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+}
+.get-track-label:first-child { margin-top: 0; }
+
+/* ---- HERO CTA NOTE ---- */
+.hero-cta-note {
+    font-size: 0.8125rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    text-align: center;
 }
